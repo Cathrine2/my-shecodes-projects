@@ -18,7 +18,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 88px;
 }
 
 h2 {
@@ -82,6 +82,11 @@ a {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+.project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+}
 
 .navigation-links a {
   margin: 20px;
@@ -127,4 +132,7 @@ a {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width:900px) {
+    
 }
